@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image: url(../img/backgroundport.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 2915px;
+  
+}
+
+
+
+nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 500px;
+  width: 110px;
+  margin-top: 90px;
+  margin-left: 10px;
+background-image: url(../img/lemur.jpg);
+background-size: 160%;
+  z-index: 2;
+}
+nav > a {
+  margin: auto;
+  text-decoration: none;
+  color: black;
+  padding: 8px 5px;
+  border: solid 1px white;
+}
+a:nth-child(1){
+    background-color: rgb(51, 165, 40);
+}
+a:nth-child(2){
+    background-color: rgb(25, 85, 214);
+}
+a:nth-child(3){
+    background-color: rgb(224, 78, 78);
+}
+a:nth-child(4){
+    background-color: rgb(189, 65, 226);
+}
+
+#textnuage{
+display: flex;
+flex-direction: column;
+position: absolute;
+top: 203px;
+left: 200px;
+z-index: 1;
+}
+#textnuage > h2{
+  margin: 6px;
+}
+#easteregg{
+  position: absolute;
+  left: 2736px;
+top: 140px;
+height: 125px;
+width: 31px;
+ opacity: 0%; 
+
+}
+
+#doors{
+  position: absolute;
+  left: 2665px;
+  top: 500px;
+  height: 250px;
+  width: 150px;
+  opacity: 0%;
+}
+/* a changer dans le background: carré noir mettre moins est plus au pif
++faire une petite surprise quand on dézoome*/

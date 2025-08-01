@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../img/websitefloor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 6500px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 500px;
+  width: 110px;
+  margin-top: 90px;
+  margin-left: 10px;
+  background-image: url(../img/lemur.jpg);
+  background-size: 160%;
+  z-index: 2;
+  opacity: 0.9;
+}
+nav > a {
+  margin: auto;
+  text-decoration: none;
+  color: black;
+  padding: 8px 5px;
+  border: solid 1px white;
+}
+a:nth-child(1) {
+  background-color: rgb(51, 165, 40);
+}
+a:nth-child(2) {
+  background-color: rgb(25, 85, 214);
+}
+a:nth-child(3) {
+  background-color: rgb(224, 78, 78);
+}
+a:nth-child(4) {
+  background-color: rgb(189, 65, 226);
+}
+
+#porte{
+  position: absolute;
+  top: 400px;
+  left: 30px;
+}
+#porte > a {
+  display: block;
+  width: 400px;
+  height: 400px;
+  opacity: 0;
+}
+
+#cadre {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 500px;
+  top: 140px;
+  width: 400px;
+}
+#cadre > div:nth-child(1) {
+  position: absolute;
+  left: 320px;
+  top: 40px;
+}
+
+#cadre > div:nth-child(2) {
+  position: absolute;
+  left: 565px;
+  top: 40px;
+}
+
+#p1 {
+  position: absolute;
+  left: 2279px;
+  top: 270px;
+}
+#p1 > img {
+  position: absolute;
+  width: 370px;
+  height: 250px;
+  top: 150px;
+  right: -130px;
+}
+#p1 > a {
+  position: absolute;
+  width: 370px;
+  height: 250px;
+  top: 150px;
+  right: -130px;
+  opacity: 0;
+}
+#p2 {
+  position: absolute;
+  left: 3140px;
+  top: 270px;
+}
+#p2 > img {
+  position: absolute;
+  width: 370px;
+  height: 250px;
+  top: 140px;
+  right: -135px;
+}
+#p2 > a {
+  position: absolute;
+  width: 370px;
+  height: 250px;
+  top: 140px;
+  right: -135px;
+  opacity: 0;
+}
+#p3{
+  position: absolute;
+  left: 3800px;
+  top: 270px;
+}
+#p3 > img {
+  position: absolute;
+  width: 370px;
+  height: 250px;
+  top: 135px;
+  right: -145px;
+}
+#p3 > a {
+  position: absolute;
+  width: 370px;
+  height: 250px;
+  top: 135px;
+  right: -145px;
+  opacity: 0;
+}
+#p4 {
+  position: absolute;
+  left: 4990px;
+  top: 270px;
+}
+#p4 > img {
+  position: absolute;
+  width: 370px;
+  height: 250px;
+  top: 130px;
+  right: -130px;
+}
+#p4 > a {
+  position: absolute;
+  width: 370px;
+  height: 250px;
+  top: 130px;
+  right: -130px;
+  opacity: 0;
+}
